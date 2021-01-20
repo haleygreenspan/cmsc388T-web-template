@@ -21,4 +21,6 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            git clone
+            cd ..
+            cd pub
+            git clone https://github.com/haleygreenspan/haleygreenspan.github.io.git
