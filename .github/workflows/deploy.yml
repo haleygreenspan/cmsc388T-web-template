@@ -23,5 +23,6 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            cd TestRepo
+            cd ..
+            cd pub/haleygreenspan.github.io
             git pull
