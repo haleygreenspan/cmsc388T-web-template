@@ -4,11 +4,7 @@ services:
   nodejs:
     #fill out the configuration here
     build:
-      context:
       dockerfile: Dockerfile
-    image: haleygreenspan
-    container_name: haleygreenspan
-    restart: unless_stopped
     networks:
       - app-network
   
